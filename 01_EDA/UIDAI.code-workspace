@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../../../../../Downloads/api_data_aadhar_enrolment"
+        },
+        {
+            "path": "../../../../../../Downloads/api_data_aadhar_demographic"
+        },
+        {
+            "path": "../../../../../../Downloads/api_data_aadhar_biometric"
+        }
+    ]
+}
