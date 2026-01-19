@@ -21,28 +21,28 @@ def load_all_data():
     """Load all required datasets"""
     try:
         # Main decision outputs
-        decisions = pd.read_csv("Outputs/final_decision_outputs.csv")
+        decisions = pd.read_csv("../Outputs/final_decision_outputs.csv")
         
         # Risk predictions with features
-        risk_data = pd.read_csv("Outputs/risk_predictions.csv")
+        risk_data = pd.read_csv("../Outputs/risk_predictions.csv")
         
         # High friction outliers
-        outliers = pd.read_csv("Outputs/high_friction_outliers.csv")
+        outliers = pd.read_csv("../Outputs/high_friction_outliers.csv")
         
         # Age verification outputs
-        age_verification = pd.read_csv("Outputs/age_verification_output.csv")
+        age_verification = pd.read_csv("../Outputs/age_verification_output.csv")
         
         # Kendra optimization recommendations
-        kendra_recs = pd.read_csv("Outputs/kendra_optimization_recommendations.csv")
+        kendra_recs = pd.read_csv("../Outputs/kendra_optimization_recommendations.csv")
         
         # Disaster alerts
-        disaster_alerts = pd.read_csv("Outputs/disaster_early_alerts.csv")
+        disaster_alerts = pd.read_csv("../Outputs/disaster_early_alerts.csv")
         
         # Feature importance
-        feature_importance = pd.read_csv("Outputs/feature_importance.csv")
+        feature_importance = pd.read_csv("../Outputs/feature_importance.csv")
         
         # Merged data with labels
-        merged_data = pd.read_csv("Outputs/merged_with_labels.csv")
+        merged_data = pd.read_csv("../Outputs/merged_with_labels.csv")
         
         return {
             'decisions': decisions,
