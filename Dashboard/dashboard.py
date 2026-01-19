@@ -18,7 +18,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_all_data():
-    """Load all required datasets"""
+    #Load all required datasets
     try:
         # Main decision outputs
         decisions = pd.read_csv("Outputs/final_decision_outputs.csv")
@@ -60,7 +60,7 @@ def load_all_data():
 
 @st.cache_data
 def calculate_kpis(data):
-    """Calculate key performance indicators"""
+    #Calculate key performance indicators
     if data is None or data['decisions'].empty:
         return {}
     
@@ -80,7 +80,7 @@ def calculate_kpis(data):
     return kpis
 
 def create_risk_distribution_chart(decisions_df):
-    """Create risk score distribution chart"""
+    #risk score distribution chart
     fig = go.Figure()
     
     fig.add_trace(go.Histogram(
@@ -108,7 +108,7 @@ def create_risk_distribution_chart(decisions_df):
     return fig
 
 def create_state_performance_chart(decisions_df):
-    """Create state-wise performance comparison"""
+    #state-wise performance comparison
     state_summary = decisions_df.groupby('state').agg({
         'risk_score': 'mean',
         'district': 'nunique'
@@ -137,7 +137,7 @@ def create_state_performance_chart(decisions_df):
     return fig
 
 def create_decision_pie_chart(decisions_df):
-    """Create pie charts for decisions"""
+    #pie charts for decisions
     fig = make_subplots(
         rows=1, cols=3,
         specs=[[{"type": "pie"}, {"type": "pie"}, {"type": "pie"}]],
@@ -178,7 +178,7 @@ def create_decision_pie_chart(decisions_df):
     return fig
 
 def create_monthly_trend_chart(decisions_df):
-    """Create monthly trend analysis"""
+    #Create monthly trend analysis
     monthly_trend = decisions_df.groupby('month').agg({
         'risk_score': ['mean', 'max'],
         'district': 'nunique'
@@ -214,7 +214,7 @@ def create_monthly_trend_chart(decisions_df):
     return fig
 
 def create_feature_importance_chart(feature_importance_df):
-    """Create feature importance visualization"""
+    #Create feature importance visualization
     fig = go.Figure()
     
     fig.add_trace(go.Bar(
