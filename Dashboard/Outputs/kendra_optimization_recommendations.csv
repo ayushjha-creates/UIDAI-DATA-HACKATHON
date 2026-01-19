@@ -1,0 +1,57 @@
+state,district,month,risk_score,dominant_stress,kendra_recommendation
+Andaman and Nicobar Islands,north and middle andaman,9,0.858008,CHILD,Schedule school-hour update camps
+Andhra Pradesh,alluri sitharama raju,11,0.67646843,ADULT,Increase counter capacity during peak hours
+Andhra Pradesh,jagitial,10,0.93905073,BALANCED,Deploy mobile enrolment unit
+Andhra Pradesh,jogulamba gadwal,11,0.914552,ADULT,Add adult biometric operators + extend hours
+Andhra Pradesh,karimnagar,12,0.52888304,ADULT,Citizen advisory: visit during off-peak hours
+Andhra Pradesh,khammam,10,0.4970571,ADULT,Citizen advisory: visit during off-peak hours
+Andhra Pradesh,komaram bheem,12,0.732331,BALANCED,Increase counter capacity during peak hours
+Andhra Pradesh,krishna,9,0.93987465,ADULT,Add adult biometric operators + extend hours
+Andhra Pradesh,krishna,10,0.5968295,CHILD,Citizen advisory: visit during off-peak hours
+Andhra Pradesh,kurnool,10,0.5812931,CHILD,Citizen advisory: visit during off-peak hours
+Andhra Pradesh,mahabubnagar,10,0.96015114,ADULT,Add adult biometric operators + extend hours
+Andhra Pradesh,narayanpet,10,0.9796045,ADULT,Add adult biometric operators + extend hours
+Andhra Pradesh,narayanpet,11,0.7585541,ADULT,Increase counter capacity during peak hours
+Andhra Pradesh,nellore,12,0.9181715,ADULT,Add adult biometric operators + extend hours
+Andhra Pradesh,nirmal,11,0.78265536,BALANCED,Increase counter capacity during peak hours
+Andhra Pradesh,parvathipuram manyam,10,0.738851,ADULT,Increase counter capacity during peak hours
+Andhra Pradesh,rajanna sircilla,12,0.873084,ADULT,Add adult biometric operators + extend hours
+Andhra Pradesh,siddipet,12,0.73259205,BALANCED,Increase counter capacity during peak hours
+Andhra Pradesh,srikakulam,10,0.9307754,CHILD,Schedule school-hour update camps
+Andhra Pradesh,vikarabad,9,0.98393863,ADULT,Add adult biometric operators + extend hours
+Andhra Pradesh,visakhapatnam,12,0.6801068,ADULT,Increase counter capacity during peak hours
+Andhra Pradesh,warangal rural,11,0.9640713,BALANCED,Deploy mobile enrolment unit
+Andhra Pradesh,west godavari,11,0.9761736,ADULT,Add adult biometric operators + extend hours
+Arunachal Pradesh,east siang,11,0.6816255,CHILD,Increase counter capacity during peak hours
+Arunachal Pradesh,longding,7,0.57938904,ADULT,Citizen advisory: visit during off-peak hours
+Arunachal Pradesh,papum pare,9,0.4704586,CHILD,Citizen advisory: visit during off-peak hours
+Arunachal Pradesh,upper siang,10,0.8863769,ADULT,Add adult biometric operators + extend hours
+Arunachal Pradesh,west kameng,10,0.97261107,ADULT,Add adult biometric operators + extend hours
+Assam,bongaigaon,3,0.85084087,ADULT,Add adult biometric operators + extend hours
+Assam,bongaigaon,4,0.6297514,CHILD,Citizen advisory: visit during off-peak hours
+Assam,dhemaji,9,0.95709705,ADULT,Add adult biometric operators + extend hours
+Assam,dhemaji,10,0.8321589,ADULT,Increase counter capacity during peak hours
+Assam,dibrugarh,7,0.8257409,CHILD,Increase counter capacity during peak hours
+Assam,golaghat,4,0.97470164,CHILD,Schedule school-hour update camps
+Assam,kamrup,9,0.9354799,ADULT,Add adult biometric operators + extend hours
+Assam,nalbari,5,0.97194517,CHILD,Schedule school-hour update camps
+Assam,north cachar hills,4,0.5726412,CHILD,Citizen advisory: visit during off-peak hours
+Assam,north cachar hills,5,0.83421177,CHILD,Increase counter capacity during peak hours
+Assam,north cachar hills,12,0.6240984,ADULT,Citizen advisory: visit during off-peak hours
+Assam,north garo hills,7,0.93625826,BALANCED,Deploy mobile enrolment unit
+Assam,south salmara mankachar,11,0.98025745,ADULT,Add adult biometric operators + extend hours
+Assam,tinsukia,4,0.71654236,CHILD,Increase counter capacity during peak hours
+Assam,west karbi anglong,5,0.92315894,ADULT,Add adult biometric operators + extend hours
+Assam,west karbi anglong,6,0.5260568,ADULT,Citizen advisory: visit during off-peak hours
+Bihar,aurangabad,11,0.7414978,ADULT,Increase counter capacity during peak hours
+Bihar,bhagalpur,6,0.52810526,ADULT,Citizen advisory: visit during off-peak hours
+Bihar,bhojpur,11,0.68916094,ADULT,Increase counter capacity during peak hours
+Bihar,darbhanga,12,0.50159764,ADULT,Citizen advisory: visit during off-peak hours
+Bihar,east champaran,6,0.50882936,ADULT,Citizen advisory: visit during off-peak hours
+Bihar,jehanabad,9,0.5079601,ADULT,Citizen advisory: visit during off-peak hours
+Bihar,katihar,10,0.87264305,ADULT,Add adult biometric operators + extend hours
+Bihar,munger,4,0.8784779,CHILD,Schedule school-hour update camps
+Bihar,munger,10,0.9345788,ADULT,Add adult biometric operators + extend hours
+Bihar,muzaffarpur,6,0.5953509,ADULT,Citizen advisory: visit during off-peak hours
+Bihar,nalanda,11,0.46412143,ADULT,Citizen advisory: visit during off-peak hours
+Bihar,sheohar,10,0.8870938,ADULT,Add adult biometric operators + extend hours
