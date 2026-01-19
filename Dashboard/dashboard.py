@@ -580,7 +580,7 @@ def main():
     
     # Data quality indicator
     if data:
-        st.sidebar.success("✅ All data loaded successfully")
+        st.sidebar.success("")
     else:
         st.sidebar.error("❌ Data loading failed")
 
