@@ -65,45 +65,6 @@ This system analyzes UIDAI (Unique Identification Authority of India) data to id
 - **Kendra Optimization**: Recommendations for Common Service Centres
 - **Outlier Detection**: Statistical identification of high-friction areas
 
-## Project Structure
-
-UIDAI/
-├── 01_EDA/                     
-│   ├── clean_enrolment.ipynb   
-│   ├── clean_demographic.ipynb 
-│   └── clean_biometric.ipynb   
-├── 02_Cleaned_Data/            # Processed datasets
-│   ├── enrolment_cleaned.csv
-│   ├── demographic_cleaned.csv
-│   ├── biometric_cleaned.csv
-│   └── merged.csv              # Combined dataset
-├── 03_Analysis/                # Statistical analysis notebooks
-│   ├── UNIVARIATE.ipynb        
-│   ├── BIVARIATE.ipynb         
-│   ├── TRIVARIATE.ipynb       
-│   ├── Outlier_Analysis.ipynb  # Anomaly detection
-│   └── merged_cleaned_data.ipynb 
-├── Model/                      # Machine learning components
-│   ├── 01_model_pipeline.ipynb # ML model development
-│   ├── 02_impact_integration.ipynb # 3 Impact ideas integration
-│   └── Decision_model.ipynb    # Decision model for the impactful ideas
-├── Dashboard/                  # Streamlit web application
-│   ├── dashboard.py            # Main dashboard application
-│   ├── requirements.txt        # Python dependencies
-│   ├── Outputs/                # Generated analysis outputs
-│   │   ├── final_decision_outputs.csv
-│   │   ├── risk_predictions.csv
-│   │   ├── high_friction_outliers.csv
-│   │   ├── age_verification_output.csv
-│   │   ├── kendra_optimization_recommendations.csv
-│   │   ├── disaster_early_alerts.csv
-│   │   └── feature_importance.csv
-│   └── shap_plots/             # Model explainability visualizations
-├── Outputs/                    # Additional analysis outputs
-├── .devcontainer/              # Development environment setup
-└── output*.png                 # Generated visualizations
-```
-
 ## 🚀 Getting Started
 
 ### Prerequisites
